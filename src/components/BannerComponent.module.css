@@ -1,24 +1,18 @@
 .banner {
-  /* Add your styles for the banner container here */
-
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row; /* Align children horizontally */
+  align-items: flex-start; /* Align children at the top */
+  justify-content: flex-start; /* Align children to the left */
+  width: 100%; /* Full width of the viewport */
 }
 
 .title {
-  /* Add your styles for the title here */
-
   text-align: center;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-right: 1rem; /* Space between title and description */
 }
 
 .description {
-  /* Add your styles for the description here */
-
   text-align: center;
   font-size: 1.2rem;
-  margin-bottom: 1rem;
 }
